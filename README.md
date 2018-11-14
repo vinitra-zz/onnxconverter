@@ -1,8 +1,13 @@
 # About
 
-This is a standalone conversion tool aimed at helping developers convert from Caffe / Keras models to ONNX format. The tool allows easily uploads and conversions of models in a pre-configured environment via Jupyter Notebooks.
+This is a standalone conversion tool aimed at helping developers convert from models to ONNX format. The tool allows easily uploads and conversions of models in a pre-configured environment via Jupyter Notebooks.
 
 You can use a prebuilt Docker image of this converter [here](https://hub.docker.com/r/microsoft/onnxconverter/)
+
+# Supported Models
+- Caffe
+- Keras
+- CoreML
 
 # Usage
 
@@ -23,7 +28,7 @@ You can use a prebuilt Docker image of this converter [here](https://hub.docker.
     or docker cp the required model files to the container. You can also copy a whole folder using docker.
     - `docker cp PATH_TO_FILE_ON_YOUR_PC NAME_OF_CONTAINER:/conversion/scripts/NAME_OF_FILE_ON_CONTAINER`
 
-7. Navigate to the scripts folder in the container Jupyter Notebooks and edit the appropriate notebook to convert your Caffe / Keras model to ONNX
+7. Navigate to the scripts folder in the container Jupyter Notebooks and edit the appropriate notebook to convert your model to ONNX
 
 
 # Contributing
