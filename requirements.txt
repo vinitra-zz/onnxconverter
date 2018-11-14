@@ -1,0 +1,16 @@
+tensorflow==1.5.0
+keras==2.1.6
+coremltools==2.0
+jupyter==1.0.0
+onnxmltools==1.2.2.129
+h5py==2.8.0
+six==1.10.0
+tqdm==4.26.0
+torchvision==0.2.1
+http://download.pytorch.org/whl/cpu/torch-0.4.0-cp36-cp36m-linux_x86_64.whl
+opencv-python==3.2.0.6
+matplotlib==2.1.1
+pandas==0.22.0
+pillow==5.0.0
+scipy==1.0.0
+scikit-learn==0.20.0
